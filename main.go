@@ -12,6 +12,8 @@ func main() {
 		return
 	}
 
+	fmt.Println("test")
+	return
 	fmt.Println("Successfully loaded file: " + config.filePath)
 
 	return
