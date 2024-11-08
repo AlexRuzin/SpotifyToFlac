@@ -12,9 +12,6 @@ func main() {
 		return
 	}
 
-	fmt.Println("test")
-	return
 	fmt.Println("Successfully loaded file: " + config.filePath)
-
-	return
+	fmt.Println("Data: " + config.api.clientId)
 }
